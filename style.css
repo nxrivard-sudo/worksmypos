@@ -1,0 +1,16 @@
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,-apple-system,sans-serif;color:#1a1a1a;background:#fafaf7}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;padding:12px 20px;background:#fff;border-bottom:1px solid #e5e5e0}
+.logo{font-size:22px;text-decoration:none;color:#111}.logo b{color:#0a7d4f}nav a{margin-left:16px;color:#333;font-size:15px}
+main,.news,footer{max-width:1100px;margin:0 auto;padding:20px}h1{font-size:clamp(26px,5vw,38px);line-height:1.15;margin:.3em 0}
+.lead{font-size:18px;color:#444}.muted,small{color:#777}a{color:#0a5d9f}
+.filters{display:flex;flex-wrap:wrap;gap:12px;background:#fff;padding:14px;border:1px solid #e5e5e0;border-radius:10px}
+.filters label{display:flex;flex-direction:column;font-size:13px;font-weight:600}.filters .ck{flex-direction:row;align-items:center;gap:6px}
+select,input,textarea,button{font:inherit;padding:8px 10px;border:1px solid #ccc;border-radius:6px}button,.btn{background:#0a7d4f;color:#fff;border:0;cursor:pointer;padding:8px 14px;border-radius:6px;text-decoration:none}
+.tw{overflow-x:auto}table{width:100%;border-collapse:collapse;background:#fff;font-size:14px;margin:12px 0}th,td{text-align:left;padding:8px;border-bottom:1px solid #eee;vertical-align:top}
+th{background:#f2f2ed}tr.nt td{color:#666;font-size:13px;border-bottom:1px solid #ddd;padding-top:0}
+.lv{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;font-weight:600;background:#eee;white-space:nowrap}
+.native{background:#d6f5e3;color:#065}.marketplace_app{background:#dbeafe;color:#1e40af}.unverified{background:#fde68a;color:#7a4b00}.coming_soon{background:#fde2e2;color:#8a1c1c}.none{background:#eee;color:#666}
+.chips{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px}.chips a{display:block;padding:8px 16px;background:#fff;border:1px solid #ddd;border-radius:20px;text-decoration:none}
+.news{background:#fff;border:1px solid #e5e5e0;border-radius:10px;margin-top:30px}.news form{display:flex;flex-wrap:wrap;gap:8px}.todo{color:#7a4b00;width:100%}
+.sf{display:grid;gap:12px;max-width:520px}.sf label{display:grid;gap:4px;font-weight:600;font-size:14px}footer{font-size:13px;color:#777}article{max-width:800px}
+@media(max-width:640px){nav a{margin-left:10px;font-size:14px}th:nth-child(5),td:nth-child(5){display:none}}
