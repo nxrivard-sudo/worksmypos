@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nxrivard-sudo.github.io/worksmypos/sitemap.xml
